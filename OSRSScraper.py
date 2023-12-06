@@ -33,7 +33,7 @@ def export_to_excel(data, filepath):
     print(f"Data exported to: {filepath}")
 
 # Search for the specified username on Old School RuneScape high scores. Change the username value and keep the " "!!!
-username = "Slick Caps"
+username = "ENTER USERNAME"
 highscores_data = search_osrs_highscores(username)
 
 if highscores_data:
